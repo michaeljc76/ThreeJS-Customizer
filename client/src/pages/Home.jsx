@@ -26,7 +26,7 @@ const Home = () => {
                 <motion.div className='motion.content' {...headContainerAnimation}>
                     <motion.div {...headTextAnimation}>
                         <h1 className='head-text'>
-                            LET'S <br className='xl:block hidden' /> DO IT.
+                            UPLOAD <br /> COLOR <br /> SAVE.
                         </h1>
                     </motion.div>
                     <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
@@ -35,7 +35,7 @@ const Home = () => {
                         </p>
                         <CustomButton 
                             type='filled'
-                            title = "Customize It"
+                            title = "CUSTOMIZE"
                             handleClick={() => state.intro = false}
                             customStyles = 'w-full px-4 py-2.5 font-bold text-sm'
                         />
