@@ -30,8 +30,8 @@ const Home = () => {
                         </h1>
                     </motion.div>
                     <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
-                        <p className='max-w-md font-normal text-gray-600 text-base'>
-                            Create your custom shoe using our AI-Powered 3D customization tool. <strong>Strong tag </strong> normal text.
+                        <p className='max-w-md font-normal text-gray-300 text-base'>
+                            Draft your shirt ideas using this AI-Powered 3D customization tool. Click <strong>Customize </strong> to begin.
                         </p>
                         <CustomButton 
                             type='filled'
